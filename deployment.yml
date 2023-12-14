@@ -1,22 +1,26 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: owasp-deployment
-  namespace: owasp
+  name: waasapp-deployment
+  namespace: waasapp
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: owasp-pod
+      app: waasapp-pod
   template:
     metadata:
       labels:
-        app: owasp-pod
-        namespace: owasp
+        app: waasapp-pod
+        namespace: waasapp
     spec:
       containers:
-      - name: owasp-container
-        image: santosomar/vuln_app:latest
-        ports:
-          - containerPort: 80
-          - hostPort: 9991 #this is the port that the container will listen to
+        - name: waasapp-container
+          image: afortes.azurecr.io/waasapp:latest
+          ports:
+            - containerPort: 5000
+              protocol: TCP
+          resources:
+            limits:
+              cpu: 500m
+              memory: 128Mi
