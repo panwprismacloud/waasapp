@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/waasapp.bundle.scp.css"
     },
     {
+      "Id": "/Users/afortes/Source/repos/waasapp/wwwroot/bin/index.html",
+      "PackagePath": "staticwebassets/bin/index.html"
+    },
+    {
       "Id": "/Users/afortes/Source/repos/waasapp/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

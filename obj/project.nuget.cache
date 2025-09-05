@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3PdzrxPdrJ0iGjvMOP18t702YZw8SOTr+v03CN3zgBzu8nCcvryxd7wYce9xhMkhUTuto+SxLTaTR9U/QK4A3Q==",
+  "dgSpecHash": "gLe89USM4PE=",
   "success": true,
   "projectFilePath": "/Users/afortes/Source/repos/waasapp/waasapp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/afortes/.nuget/packages/microsoft.netcore.app.ref/7.0.19/microsoft.netcore.app.ref.7.0.19.nupkg.sha512",
+    "/Users/afortes/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.19/microsoft.aspnetcore.app.ref.7.0.19.nupkg.sha512",
+    "/Users/afortes/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.19/microsoft.netcore.app.host.osx-arm64.7.0.19.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,54 @@
+# ---------------------------
+# .NET build artifacts
+# ---------------------------
+bin/
+obj/
+out/
+publish/
+
+# ---------------------------
+# User-specific files
+# ---------------------------
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+.vscode/
+
+# ---------------------------
+# NuGet
+# ---------------------------
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ---------------------------
+# Rider / JetBrains
+# ---------------------------
+.idea/
+*.iml
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
+
+# ---------------------------
+# OS generated files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Docker
+# ---------------------------
+# Ignore local Docker builds and temp files
+docker-compose.override.yml
+*.tar
+*.tar.gz
+**/Doc**
