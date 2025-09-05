@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PEg29OUmG9m8NSSrSXgHvaSUQDnhGeFxIgrE842f6Iw=",
+  "Hash": "ASIINX9e7D77D+MnyAI7p2Re/2E+GheANGxAwqkjh/I=",
   "Source": "waasapp",
   "BasePath": "_content/waasapp",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/bin/index.html"
+    },
+    {
+      "Identity": "/Users/afortes/Source/repos/waasapp/wwwroot/cgi/index.html",
+      "SourceId": "waasapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/afortes/Source/repos/waasapp/wwwroot/",
+      "BasePath": "_content/waasapp",
+      "RelativePath": "cgi/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/cgi/index.html"
     },
     {
       "Identity": "/Users/afortes/Source/repos/waasapp/wwwroot/css/site.css",

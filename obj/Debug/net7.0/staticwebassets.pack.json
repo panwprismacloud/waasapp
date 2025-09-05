@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/bin/index.html"
     },
     {
+      "Id": "/Users/afortes/Source/repos/waasapp/wwwroot/cgi/index.html",
+      "PackagePath": "staticwebassets/cgi/index.html"
+    },
+    {
       "Id": "/Users/afortes/Source/repos/waasapp/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

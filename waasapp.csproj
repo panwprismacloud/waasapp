@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <!-- Include anything under the bin/ directory in build output and publish output -->
-    <Content Include="bin/**">
+  <Content Include="cgi/**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>

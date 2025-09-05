@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("waasapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9a699018651dde038cf925d0906fd3572f05904")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+836efc0eb192091218c29a69f5fcf3ce1bd722b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("waasapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("waasapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
